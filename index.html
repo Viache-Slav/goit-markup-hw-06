@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebStudio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="body">
+    
+    <header>
+        <div class="container flex-box-header">
+            <a href="WebStudio" class="webstudio"><span class="web">Web</span>Studio</a>
+            <nav>
+                <ul class="flex-box-header-nav">
+                    <li class="menu-nav"><a href="index.html" class="agencja active">Agencja</a></li>
+                    <li class="menu-nav"><a href="portfolio.html"class="portfolio">Portfolio</a></li>
+                    <li class="menu-nav"><a href="#Kontakt"class="kontakt" >Kontakty</a></li>
+                </ul>
+            </nav>
+            <ul class="flex-box-header-nav">
+                <li class="menu-nav tel-mail-icon-item">
+                    <a href="info@devstudio.com"class="mail">
+                        <svg class="tel-mail-icon">
+                            <use href="./images/icons.svg#icon-envelope"></use>
+                        </svg>
+                        info@devstudio.com</a>
+                </li>
+                <li class="menu-nav tel-mail-icon-item">
+                    <a href="tel:+48111111111"class="tel">
+                        <svg class="tel-icon">
+                            <use href="./images/icons.svg#icon-smartphone"></use>
+                        </svg>
+                        +48 111 111 111</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    
+    <main id="Agencja">
+        <section class="button photo-efect">
+            <div class="container">
+                <div>
+                    <h1 class="caption">
+                        EFEKTYWNE ROZWIĄZANIA <br> DLA WASZEGO BIZNESU 
+                    </h1>
+                    <button class="btn-main-page" type="button" data-modal-open>Zamów usługe</button>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <ul class="flex-box-lorem-ipsum"> 
+                    <li>
+                        <div class="box-icon-lorem-ipsum">
+                            <svg class="icon-lorem-ipsum">
+                                <use href="./images/icons.svg#icon-antene"></use>
+                            </svg>
+                        </div>
+                        <h3 class="lorem-ipsum-style-text">LOREM IPSUM</h3>
+                        <p class="lorem-ipsum-style-text-Opis">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p>
+                    </li>
+                    <li>
+                        <div class="box-icon-lorem-ipsum">
+                            <svg class="icon-lorem-ipsum">
+                                <use href="./images/icons.svg#icon-clock"></use>
+                            </svg>
+                        </div>
+                        <h3 class="lorem-ipsum-style-text">LOREM IPSUM</h3>
+                        <p class="lorem-ipsum-style-text-Opis">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p>
+                    </li>
+                    <li>
+                        <div class="box-icon-lorem-ipsum">
+                            <svg class="icon-lorem-ipsum">
+                                <use href="./images/icons.svg#icon-diagram"></use>
+                            </svg>
+                        </div>
+                        <h3 class="lorem-ipsum-style-text">LOREM IPSUM</h3>
+                        <p class="lorem-ipsum-style-text-Opis">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p>
+                    </li>
+                    <li>
+                        <div class="box-icon-lorem-ipsum">
+                            <svg class="icon-lorem-ipsum">
+                                <use href="./images/icons.svg#icon-astronaut"></use>
+                            </svg>
+                        </div>
+                        <h3 class="lorem-ipsum-style-text">LOREM IPSUM</h3>
+                        <p class="lorem-ipsum-style-text-Opis">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="flex-box-production">
+            <div class="container">
+                <h2 class="style-tytuł">Czym się zajmujemy</h2>
+                <ul class="flex-box-production-photo">
+                    <li class="box-work">
+                        <p class="text-box-work">Aplikacje komputerowe</p> 
+                        <img src="./images/img(1).jpg"
+                        alt="programista pisze kod"
+                        width="370"
+                        height="294"/>
+                    </li>
+                    <li class="box-work">
+                        <p class="text-box-work">Aplikacje mobilne</p> 
+                        <img src="./images/img(2)(1).jpg"
+                        alt="podłączanie telefonu do komputera"
+                        width="370"
+                        height="294"/>
+                    </li>  
+                    <li class="box-work">
+                        <p class="text-box-work">Rozwiązania graficzne</p> 
+                        <img src="./images/img(3)(1).jpg"
+                        alt="kolorowy sześciokąt na tablecie"
+                        width="370"
+                        height="294"/>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="tlo-nasz-zespol">
+            <div class="container">
+                <h2 class="flex-box-sztat-tytul">Nasz zespół</h2>
+                <ul class="flex-box-sztat-photo">
+                    <li class="card-photo1">
+                        <figure class="fb-figure">
+                            <img src="./images/img(4)(1).jpg" alt="photo" width="270" height="260"/>
+                            <figcaption>
+                                <h4 class="style-name">John Doe</h4>
+                                <p class="style-department">Product Designer</p>
+                                <ul class="social">
+                                    <li class="social-list">
+                                        <a class="social-link" href="#">
+                                            <svg class="social-icon">
+                                                <use href="./images/icons.svg#icon-instagram"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social-list">
+                                        <a class="social-link" href="#">
+                                            <svg class="social-icon">
+                                                <use href="./images/icons.svg#icon-twitter"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social-list">
+                                        <a class="social-link" href="#">
+                                            <svg class="social-icon">
+                                                <use href="./images/icons.svg#icon-facebook"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social-list">
+                                        <a class="social-link" href="#">
+                                            <svg class="social-icon">
+                                                <use href="./images/icons.svg#icon-linkedin"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li class="card-photo1">
+                        <figure class="fb-figure">    
+                            <img src="./images/img(5)(1).jpg" alt="photo" width="270" height="260"/>
+                                <figcaption>
+                                    <h4 class="style-name">John Doe</h4>
+                                    <p class="style-department">Frontend Developerr</p>
+                                    <ul class="social">
+                                        <li class="social-list">
+                                            <a class="social-link" href="#">
+                                                <svg class="social-icon">
+                                                    <use href="./images/icons.svg#icon-instagram"></use>
+                                                </svg>
+                                            </a>
+                                        </li>
+                                        <li class="social-list">
+                                            <a class="social-link" href="#">
+                                                <svg class="social-icon">
+                                                    <use href="./images/icons.svg#icon-twitter"></use>
+                                                </svg>
+                                            </a>
+                                        </li>
+                                        <li class="social-list">
+                                            <a class="social-link" href="#">
+                                                <svg class="social-icon">
+                                                    <use href="./images/icons.svg#icon-facebook"></use>
+                                                </svg>
+                                            </a>
+                                        </li>
+                                        <li class="social-list">
+                                            <a class="social-link" href="#">
+                                                <svg class="social-icon">
+                                                    <use href="./images/icons.svg#icon-linkedin"></use>
+                                                </svg>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </figcaption>
+                        </figure>
+                    </li>
+                    <li class="card-photo1">
+                        <figure class="fb-figure">   
+                        <img src="./images/img(6)(1).jpg" alt="photo" width="270" height="260"/>
+                        <figcaption><h4 class="style-name">John Doe</h4>
+                            <p class="style-department">Marketing</p>
+                            <ul class="social">
+                                <li class="social-list">
+                                    <a class="social-link" href="#">
+                                        <svg class="social-icon">
+                                            <use href="./images/icons.svg#icon-instagram"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="social-list">
+                                    <a class="social-link" href="#">
+                                        <svg class="social-icon">
+                                            <use href="./images/icons.svg#icon-twitter"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="social-list">
+                                    <a class="social-link" href="#">
+                                        <svg class="social-icon">
+                                            <use href="./images/icons.svg#icon-facebook"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="social-list">
+                                    <a class="social-link" href="#">
+                                        <svg class="social-icon">
+                                            <use href="./images/icons.svg#icon-linkedin"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </figcaption>
+                        </figure> </li>
+                    <li class="card-photo1">
+                        <figure class="fb-figure">
+                        <img src="./images/img(7)(1).jpg" alt="photo" width="270" height="260"/>
+                        <figcaption><h4 class="style-name">John Doe</h4>
+                            <p class="style-department">UI Designer</p>
+                            <ul class="social">
+                                <li class="social-list">
+                                    <a class="social-link" href="#">
+                                        <svg class="social-icon">
+                                            <use href="./images/icons.svg#icon-instagram"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="social-list">
+                                    <a class="social-link" href="#">
+                                        <svg class="social-icon">
+                                            <use href="./images/icons.svg#icon-twitter"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="social-list">
+                                    <a class="social-link" href="#">
+                                        <svg class="social-icon">
+                                            <use href="./images/icons.svg#icon-facebook"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="social-list">
+                                    <a class="social-link" href="#">
+                                        <svg class="social-icon">
+                                            <use href="./images/icons.svg#icon-linkedin"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </figcaption>
+                        </figure></li>
+                </ul>
+            </div>
+        </section>
+        <section class="tlo-Nasi-klienci">
+            <div class="container">
+                <h2 class="flex-box-sztat-tytul">Nasi klienci</h2>
+                <ul class="flex-box-nasi-klienci">
+                    <li class="list">
+                        <a class="card-nasi-clienci" href="">
+                            <svg class="icon-card-nasi-clienti">
+                                <use href="./images/icons.svg#icon-logo-1"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a class="card-nasi-clienci" href="">
+                            <svg class="icon-card-nasi-clienti2">
+                                <use href="./images/icons.svg#icon-logo-2"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a class="card-nasi-clienci" href="">
+                            <svg class="icon-card-nasi-clienti3">
+                                <use href="./images/icons.svg#icon-logo-3"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a class="card-nasi-clienci" href="">
+                            <svg class="icon-card-nasi-clienti4">
+                                <use href="./images/icons.svg#icon-logo-4"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a class="card-nasi-clienci" href="">
+                            <svg class="icon-card-nasi-clienti5">
+                                <use href="./images/icons.svg#icon-logo-5"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a class="card-nasi-clienci" href="">
+                            <svg class="icon-card-nasi-clienti6">
+                                <use href="./images/icons.svg#icon-logo-6"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer id="Kontakt" class="footer">
+        <div class="container">
+            <div>
+                <a href="WebStudio" class="webstudio">
+                    <span class="web">Web</span><span class="web2">Studio</span>
+                </a>
+                <address>
+                    <ul class="flex-box-adres">
+                        <li class="flex-box-adres-info">
+                            <a href="x m. Warszawa, Aleje Jerozolimskie 21" class="address"> x m. Warszawa, Aleje Jerozolimskie 21</a>
+                        </li>
+                        <li class="flex-box-adres-info">
+                            <a href="info@devstudio.com"class="mail">info@devstudio.com</a>
+                        </li>
+                        <li class="flex-box-adres-info">
+                            <a href="tel:+48111111111"class="tel">+48 111 111 111</a>
+                        </li>
+                    </ul>
+                </address>
+            </div>
+            <div class="social-section-footer">
+                <h3 class="social-tityl-footer">Dołącz do nas</h3>
+                <ul class="social-icon-footer">
+                    <li class="social-list">
+                        <a class="social-link-footer" href="#">
+                            <svg class="social-icon-footer-linc">
+                                <use href="./images/icons.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-list">
+                        <a class="social-link-footer" href="#">
+                            <svg class="social-icon-footer-linc">
+                                <use href="./images/icons.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-list">
+                        <a class="social-link-footer" href="#">
+                            <svg class="social-icon-footer-linc">
+                                <use href="./images/icons.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-list">
+                        <a class="social-link-footer" href="#">
+                            <svg class="social-icon-footer-linc">
+                                <use href="./images/icons.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button type="button" class="close-btn" data-modal-close>
+                <svg class="icon-close-btn">
+                    <use href="./images/icons.svg#icon-close-btn"></use>
+                </svg>
+            </button>
+            <p class="klient-list">Zostaw swoje dane w formularzu poniżej</p>
+            <form name="signup_form">
+                <div class="klien-list-box">
+                    <label for="Imie">
+                        <p class="klient-list-text">Imie</p>
+                        <svg class="klient-svg-icon">
+                            <use href="./images/icons.svg#icon-imie"></use>
+                        </svg>
+                        <input class="klient-list-input" type="text" name="Imie" id="Imie" required minlength="5">
+                    </label>
+                </div>
+
+                <div class="klien-list-box">
+                    <label for="Telefon">
+                        <p class="klient-list-text">Telefon</p>
+                        <svg class="klient-svg-icon">
+                            <use href="./images/icons.svg#icon-telefon"></use>
+                        </svg>
+                        <input class="klient-list-input" type="tel" name="Telefon" id="Telefon">
+                    </label>
+                </div>
+
+                <div class="klien-list-box">
+                    <label for="Email">
+                        <p class="klient-list-text">Email</p>
+                        <svg class="klient-svg-icon">
+                            <use href="./images/icons.svg#icon-email"></use>
+                        </svg>
+                        <input class="klient-list-input" type="email" name="Email" id="Email" required>
+                    </label>
+                </div>
+
+                <div class="klien-list-box">
+                    <label for="Komentarz">
+                        <p class="klient-list-text">Komentarz</p></label>
+                        <textarea class="klient-list-textarea" name="feedback" id="Komentarz" placeholder="Wprowadź tekst" minlength="20">
+                        </textarea>
+                </div>
+                
+                <div class="klient-policy">
+                    <input class="modal-form-policy visually-hidden" id="user-policy" type="checkbox" name="policy" required>
+                    <label for="user-policy" class="modal-form-policy-text">
+                        Oświadczam iż akceptuję 
+                        <a class="klient-policy-plik" href="Regulamin">Regulamin</a> i 
+                        <a class="klient-policy-plik" href="Politykę Prywatności">Politykę Prywatności.</a></label>
+                </div>
+
+                <div class="klient-policy"><button class="klient-button" type="submit">Wyślij</button></div>
+            </form>
+        </div>
+    </div>
+
+    <script src="./JS/modal.js"></script>
+
+</body>
+</html>
