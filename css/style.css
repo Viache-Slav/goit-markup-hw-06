@@ -408,6 +408,7 @@
     align-items: center;
     justify-content: center;
     border: 1px solid #AFB1B8;
+    fill: rgb(175, 177, 184);
     border-radius: 4px;
     width: 170px;
     height: 92px;
@@ -415,57 +416,42 @@
     box-sizing: border-box;
     transition: border 250ms;
 }
-.card-nasi-clienci:hover{
+.card-nasi-clienci:hover,
+.card-nasi-clienci2:hover,
+.card-nasi-clienci3:hover,
+.card-nasi-clienci4:hover,
+.card-nasi-clienci5:hover,
+.card-nasi-clienci6:hover{
     border: 1px solid #2196F3;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.icon-card-nasi-clienti:hover,
-.icon-card-nasi-clienti:focus,
-.icon-card-nasi-clienti2:hover,
-.icon-card-nasi-clienti2:focus,
-.icon-card-nasi-clienti3:hover,
-.icon-card-nasi-clienti3:focus,
-.icon-card-nasi-clienti4:hover,
-.icon-card-nasi-clienti4:focus,
-.icon-card-nasi-clienti5:hover,
-.icon-card-nasi-clienti5:focus,
-.icon-card-nasi-clienti6:hover,
-.icon-card-nasi-clienti6:focus{
     fill: rgb(33, 150, 243);
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-card-nasi-clienti{
-    fill: rgb(175, 177, 184);
     width: 41px;
     height: 48px;
     transition: fill 250ms;
 }
 .icon-card-nasi-clienti2{
-    fill: rgb(175, 177, 184);
     width: 40px;
     height: 53px;
     transition: fill 250ms;
 }
 .icon-card-nasi-clienti3{
-    fill: rgb(175, 177, 184);
     width: 45px;
     height: 42px;
     transition: fill 250ms;
 }
 .icon-card-nasi-clienti4{
-    fill: rgb(175, 177, 184);
     width: 85px;
     height: 42px;
     transition: fill 250ms;
 }
 .icon-card-nasi-clienti5{
-    fill: rgb(175, 177, 184);
     width: 63px;
     height: 47px;
     transition: fill 250ms;
 }
 .icon-card-nasi-clienti6{
-    fill: rgb(175, 177, 184);
     width: 94px;
     height: 45px;
     transition: fill 250ms;
