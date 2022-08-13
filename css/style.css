@@ -485,6 +485,7 @@
 .social-list{
     display: flex;
     align-items: center;
+    fill: #757575;
 }
 .social-link{
     display: flex;
@@ -498,19 +499,13 @@
 }
 .social-link:hover,
 .social-link:focus{
+    fill: #FFFFFF;
     background-color: #2196F3;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-icon{
     width: 20px;
     height: 20px;
-    fill: rgba(117, 117, 117);
-    transition: fill 250ms;
-}
-.social-icon:hover,
-.social-icon:focus{
-    fill: rgba(255, 255, 255, 1);
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer{
     background-color: #2F303A;
@@ -788,6 +783,7 @@ label:focus-within{
     border: none;
     background-image: url(../images/vector.svg);
     background-color: #2196F3;
+    border: 1px solid#FFFFFF;
 }
 .visually-hidden{
     position: absolute !important;
