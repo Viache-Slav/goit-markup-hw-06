@@ -759,11 +759,13 @@ label:focus-within{
     margin-top: 20px;
 }
 .modal-form-policy-text::before{
+    position: relative;
     display: inline-block;
     content: "";
     width: 16px;
     height: 15px;
     border: 1px solid#212121;
+    margin:-2px;
 }
 .modal-form-policy:checked + .modal-form-policy-text::before{
     border: none;
