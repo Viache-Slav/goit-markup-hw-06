@@ -765,7 +765,7 @@ label:focus-within{
     width: 16px;
     height: 15px;
     border: 1px solid#212121;
-    margin:-2px;
+    margin:-3px;
 }
 .modal-form-policy:checked + .modal-form-policy-text::before{
     border: none;
