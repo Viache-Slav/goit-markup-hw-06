@@ -10,51 +10,56 @@
 </head>
 <body class="body">
 
-    <header>
-        <div class="container flex-box-header">
-            <a href="WebStudio" class="webstudio"><span class="web">Web</span>Studio</a>
-            <nav>
-                <ul class="flex-box-header-nav">
-                    <li class="menu-nav"><a href="index.html" class="agencja">Agencja</a></li>
-                    <li class="menu-nav"><a href="portfolio.html"class="portfolio active">Portfolio</a></li>
-                    <li class="menu-nav"><a href="#Kontakt"class="kontakt" >Kontakty</a></li>
-                </ul>
-            </nav>
-            <ul class="flex-box-header-nav">
-                <li class="menu-nav tel-mail-icon-item">
-                    <a href="info@devstudio.com"class="mail">
-                        <svg class="tel-mail-icon">
-                            <use href="./images/icons.svg#icon-envelope"></use>
-                        </svg>
-                        info@devstudio.com</a>
+    <header class="container header">
+        <a href="WebStudio" class="header-logo">
+            <span class="header-logo-color">Web</span>Studio</a>
+        <nav>
+            <ul class="header-navigation">
+                <li class="menu-nav">
+                    <a href="index.html" class="header-navigation-agencies">Agencja</a>
                 </li>
-                <li class="menu-nav tel-mail-icon-item">
-                    <a href="tel:+48111111111"class="tel">
-                        <svg class="tel-icon">
-                            <use href="./images/icons.svg#icon-smartphone"></use>
-                        </svg>
-                        +48 111 111 111</a>
+                <li class="menu-nav">
+                    <a href="portfolio.html"class="header-navigation-portfolio active">Portfolio</a>
+                </li>
+                <li class="menu-nav">
+                    <a href="#Kontakt"class="header-navigation-contacts">Kontakty</a>
                 </li>
             </ul>
-        </div>
+        </nav>
+        <ul class="header-link">
+            <li class="menu-nav">
+                <a href="info@devstudio.com"class="header-link-mail">
+                    <svg class="header-mail-icon">
+                        <use href="./images/icons.svg#icon-envelope"></use>
+                    </svg>
+                    info@devstudio.com</a>
+            </li>
+            <li class="menu-nav">
+                <a href="tel:+48111111111"class="header-link-tel">
+                    <svg class="header-tel-icon">
+                        <use href="./images/icons.svg#icon-smartphone"></use>
+                    </svg>
+                    +48 111 111 111</a>
+            </li>
+        </ul>
     </header>
 
-    <main id="Portfolio.html" class="flex-box-portfolio">
-            <section class="flex-box-filter">
+    <main id="Portfolio.html" class="portfolio">
+            <section class="filter">
                 <div class="container">
-                    <button class="btn" type="button">Wszystkie</button>
-                    <button class="btn" type="button">Strony</button>
-                    <button class="btn" type="button">Aplikacje</button>
-                    <button class="btn" type="button">Dizajn</button>
-                    <button class="btn" type="button">Marketing</button>
+                    <button class="filter-btn" type="button">Wszystkie</button>
+                    <button class="filter-btn" type="button">Strony</button>
+                    <button class="filter-btn" type="button">Aplikacje</button>
+                    <button class="filter-btn" type="button">Dizajn</button>
+                    <button class="filter-btn" type="button">Marketing</button>
                 </div>
             </section>
             <section>
                 <div class="container">
-                    <ul class="flex-box-card-set">
-                        <li class="container-bg">
-                            <figure class="flex-box-card">
-                                <div class="img-box">
+                    <ul class="box-sites">
+                        <li class="sites">
+                            <figure class="sites-card">
+                                <div class="sites-card-img">
                                     <img src="./images/img(8)(1).jpg" 
                                     alt="laptop"
                                     width="370"
@@ -66,14 +71,14 @@
                                     </div>
                                 </div>
                                 <figcaption>
-                                    <h3 class="project-title">Technocrack</h3>
-                                    <p class="site-type">Strona internetowa</p>
+                                    <h3 class="sites-card-title">Technocrack</h3>
+                                    <p class="sites-card-type">Strona internetowa</p>
                                 </figcaption> 
                             </figure>
                         </li>
-                        <li class="container-bg">
-                            <figure class="flex-box-card">
-                                <div class="img-box">
+                        <li class="sites">
+                            <figure class="sites-card">
+                                <div class="sites-card-img">
                                     <img src="./images/img(9)(1).jpg" 
                                     alt="koszykówka"
                                     width="370"
@@ -85,14 +90,14 @@
                                     </div>
                                 </div>
                                     <figcaption>
-                                        <h3 class="project-title">Grafika New Orlean vs Golden Star </h3>
-                                        <p class="site-type">Dizajn</p>
+                                        <h3 class="sites-card-title">Grafika New Orlean vs Golden Star </h3>
+                                        <p class="sites-card-type">Dizajn</p>
                                     </figcaption>
                             </figure>
                         </li>
-                        <li class="container-bg">
-                            <figure class="flex-box-card">
-                                <div class="img-box">
+                        <li class="sites">
+                            <figure class="sites-card">
+                                <div class="sites-card-img">
                                     <img src="./images/img(10)(1).jpg" 
                                     alt="logo restauracji"
                                     width="370"
@@ -104,14 +109,14 @@
                                     </div>
                                 </div>
                                     <figcaption>
-                                        <h3 class="project-title">Restauracja Seafood</h3>
-                                        <p class="site-type">Aplikacja</p>
+                                        <h3 class="sites-card-title">Restauracja Seafood</h3>
+                                        <p class="sites-card-type">Aplikacja</p>
                                     </figcaption>
                             </figure class="flex-box-card">
                         </li>
-                        <li class="container-bg">
-                            <figure class="flex-box-card">
-                                <div class="img-box">
+                        <li class="sites">
+                            <figure class="sites-card">
+                                <div class="sites-card-img">
                                     <img src="./images/img(11)(1).jpg" 
                                     alt="słuchawki"
                                     width="370"
@@ -123,14 +128,14 @@
                                     </div>
                                 </div>
                                 <figcaption>
-                                    <h3 class="project-title">Projekt Prime</h3>
-                                    <p class="site-type">Marketing</p>
+                                    <h3 class="sites-card-title">Projekt Prime</h3>
+                                    <p class="sites-card-type">Marketing</p>
                                 </figcaption>
                             </figure>
                         </li>
-                        <li class="container-bg">
-                            <figure class="flex-box-card">
-                                <div class="img-box">
+                        <li class="sites">
+                            <figure class="sites-card">
+                                <div class="sites-card-img">
                                     <img src="./images/img(12)(1).jpg"
                                     alt="kostki"
                                     width="370"
@@ -142,14 +147,14 @@
                                     </div>
                                 </div>
                                     <figcaption>
-                                        <h3 class="project-title">Projekt Boxes</h3>
-                                        <p class="site-type">Aplikacja</p>
+                                        <h3 class="sites-card-title">Projekt Boxes</h3>
+                                        <p class="sites-card-type">Aplikacja</p>
                                     </figcaption>
                             </figure>
                         </li>
-                        <li class="container-bg">
-                            <figure class="flex-box-card">
-                                <div class="img-box">
+                        <li class="sites">
+                            <figure class="sites-card">
+                                <div class="sites-card-img">
                                     <img src="./images/img(13)(1).jpg" 
                                     alt="monitor"
                                     width="370"
@@ -161,14 +166,14 @@
                                     </div>
                                 </div>
                                     <figcaption>
-                                        <h3 class="project-title">Inspiration has no Borders</h3>
-                                        <p class="site-type">Strona internetowa</p>
+                                        <h3 class="sites-card-title">Inspiration has no Borders</h3>
+                                        <p class="sites-card-type">Strona internetowa</p>
                                     </figcaption>
                             </figure>
                         </li>
-                        <li class="container-bg">
-                            <figure class="flex-box-card">
-                                <div class="img-box">
+                        <li class="sites">
+                            <figure class="sites-card">
+                                <div class="sites-card-img">
                                     <img src="./images/img(14)(1).jpg" 
                                     alt="księga"
                                     width="370"
@@ -180,14 +185,14 @@
                                     </div>
                                 </div>
                                     <figcaption>
-                                        <h3 class="project-title">Magazyn Limited Edition</h3>
-                                        <p class="site-type">Dizajn</p>
+                                        <h3 class="sites-card-title">Magazyn Limited Edition</h3>
+                                        <p class="sites-card-type">Dizajn</p>
                                     </figcaption>
                             </figure>
                         </li>
-                        <li class="container-bg">
-                            <figure class="flex-box-card">
-                                <div class="img-box">
+                        <li class="sites">
+                            <figure class="sites-card">
+                                <div class="sites-card-img">
                                     <img src="./images/img(15)(1).jpg" 
                                     alt="Etykieta"
                                     width="370"
@@ -199,14 +204,14 @@
                                     </div>
                                 </div>
                                     <figcaption>
-                                        <h3 class="project-title">Projekt LAB</h3>
-                                        <p class="site-type">Marketing</p>
+                                        <h3 class="sites-card-title">Projekt LAB</h3>
+                                        <p class="sites-card-type">Marketing</p>
                                     </figcaption>
                             </figure>
                         </li>
-                        <li class="container-bg">
-                            <figure class="flex-box-card">
-                                <div class="img-box">
+                        <li class="sites">
+                            <figure class="sites-card">
+                                <div class="sites-card-img">
                                     <img src="./images/img(16)(1).jpg" 
                                     alt="laptop"
                                     width="370"
@@ -218,8 +223,8 @@
                                     </div>
                                 </div>
                                     <figcaption>
-                                        <h3 class="project-title">Growing Business</h3>
-                                        <p class="site-type">Aplikacja</p>
+                                        <h3 class="sites-card-title">Growing Business</h3>
+                                        <p class="sites-card-type">Aplikacja</p>
                                     </figcaption>
                             </figure>
                         </li>
@@ -232,19 +237,19 @@
     <footer id="Kontakt" class="footer">
         <div class="container">
             <div>
-                <a href="WebStudio" class="webstudio">
-                    <span class="web">Web</span><span class="web2">Studio</span>
+                <a href="WebStudio" class="footer-logo">
+                    <span class="header-logo-color">Web</span><span class="footer-logo-color">Studio</span>
                 </a>
                 <address>
-                    <ul class="flex-box-adres">
-                        <li class="flex-box-adres-info">
-                            <a href="x m. Warszawa, Aleje Jerozolimskie 21" class="address"> x m. Warszawa, Aleje Jerozolimskie 21</a>
+                    <ul class="visit">
+                        <li class="visit-info">
+                            <a href="x m. Warszawa, Aleje Jerozolimskie 21" class="visit-info-address"> x m. Warszawa, Aleje Jerozolimskie 21</a>
                         </li>
-                        <li class="flex-box-adres-info">
-                            <a href="info@devstudio.com"class="mail">info@devstudio.com</a>
+                        <li class="visit-info">
+                            <a href="info@devstudio.com"class="header-link-mail">info@devstudio.com</a>
                         </li>
-                        <li class="flex-box-adres-info">
-                            <a href="tel:+48111111111"class="tel">+48 111 111 111</a>
+                        <li class="visit-info">
+                            <a href="tel:+48111111111"class="header-link-tel">+48 111 111 111</a>
                         </li>
                     </ul>
                 </address>
