@@ -10,108 +10,109 @@
 </head>
 <body class="body">
     
-    <header>
-        <div class="container flex-box-header">
-            <a href="WebStudio" class="webstudio"><span class="web">Web</span>Studio</a>
-            <nav>
-                <ul class="flex-box-header-nav">
-                    <li class="menu-nav"><a href="index.html" class="agencja active">Agencja</a></li>
-                    <li class="menu-nav"><a href="portfolio.html"class="portfolio">Portfolio</a></li>
-                    <li class="menu-nav"><a href="#Kontakt"class="kontakt" >Kontakty</a></li>
-                </ul>
-            </nav>
-            <ul class="flex-box-header-nav">
-                <li class="menu-nav tel-mail-icon-item">
-                    <a href="info@devstudio.com"class="mail">
-                        <svg class="tel-mail-icon">
-                            <use href="./images/icons.svg#icon-envelope"></use>
-                        </svg>
-                        info@devstudio.com</a>
+    <header class="container header">
+        <a href="WebStudio" class="header-logo">
+            <span class="header-logo-color">Web</span>Studio</a>
+        <nav>
+            <ul class="header-navigation">
+                <li class="menu-nav">
+                    <a href="index.html" class="header-navigation-agencies active">Agencja</a>
                 </li>
-                <li class="menu-nav tel-mail-icon-item">
-                    <a href="tel:+48111111111"class="tel">
-                        <svg class="tel-icon">
-                            <use href="./images/icons.svg#icon-smartphone"></use>
-                        </svg>
-                        +48 111 111 111</a>
+                <li class="menu-nav">
+                    <a href="portfolio.html"class="header-navigation-portfolio">Portfolio</a>
+                </li>
+                <li class="menu-nav">
+                    <a href="#Kontakt"class="header-navigation-contacts">Kontakty</a>
                 </li>
             </ul>
-        </div>
+        </nav>
+        <ul class="header-link">
+            <li class="menu-nav">
+                <a href="info@devstudio.com"class="header-link-mail">
+                    <svg class="header-mail-icon">
+                        <use href="./images/icons.svg#icon-envelope"></use>
+                    </svg>
+                    info@devstudio.com</a>
+            </li>
+            <li class="menu-nav">
+                <a href="tel:+48111111111"class="header-link-tel">
+                    <svg class="header-tel-icon">
+                        <use href="./images/icons.svg#icon-smartphone"></use>
+                    </svg>
+                    +48 111 111 111</a>
+            </li>
+        </ul>
     </header>
     
-    <main id="Agencja">
-        <section class="button photo-efect">
+    <main>
+        <section class="title photo-efect">
             <div class="container">
-                <div>
-                    <h1 class="caption">
-                        EFEKTYWNE ROZWIĄZANIA <br> DLA WASZEGO BIZNESU 
-                    </h1>
-                    <button class="btn-main-page" type="button" data-modal-open>Zamów usługe</button>
-                </div>
+                <h1 class="title-text">
+                    EFEKTYWNE ROZWIĄZANIA <br> DLA WASZEGO BIZNESU 
+                </h1>
+                <button class="title-button" type="button" data-modal-open>Zamów usługe</button>
             </div>
         </section>
-        <section>
-            <div class="container">
-                <ul class="flex-box-lorem-ipsum"> 
-                    <li>
-                        <div class="box-icon-lorem-ipsum">
-                            <svg class="icon-lorem-ipsum">
-                                <use href="./images/icons.svg#icon-antene"></use>
-                            </svg>
-                        </div>
-                        <h3 class="lorem-ipsum-style-text">LOREM IPSUM</h3>
-                        <p class="lorem-ipsum-style-text-Opis">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p>
-                    </li>
-                    <li>
-                        <div class="box-icon-lorem-ipsum">
-                            <svg class="icon-lorem-ipsum">
-                                <use href="./images/icons.svg#icon-clock"></use>
-                            </svg>
-                        </div>
-                        <h3 class="lorem-ipsum-style-text">LOREM IPSUM</h3>
-                        <p class="lorem-ipsum-style-text-Opis">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p>
-                    </li>
-                    <li>
-                        <div class="box-icon-lorem-ipsum">
-                            <svg class="icon-lorem-ipsum">
-                                <use href="./images/icons.svg#icon-diagram"></use>
-                            </svg>
-                        </div>
-                        <h3 class="lorem-ipsum-style-text">LOREM IPSUM</h3>
-                        <p class="lorem-ipsum-style-text-Opis">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p>
-                    </li>
-                    <li>
-                        <div class="box-icon-lorem-ipsum">
-                            <svg class="icon-lorem-ipsum">
-                                <use href="./images/icons.svg#icon-astronaut"></use>
-                            </svg>
-                        </div>
-                        <h3 class="lorem-ipsum-style-text">LOREM IPSUM</h3>
-                        <p class="lorem-ipsum-style-text-Opis">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p>
-                    </li>
-                </ul>
-            </div>
+        <section class="container">
+            <ul class="archive"> 
+                <li>
+                    <div class="archive-box">
+                        <svg class="archive-box-icon">
+                            <use href="./images/icons.svg#icon-antene"></use>
+                        </svg>
+                    </div>
+                    <h3 class="archive-title">LOREM IPSUM</h3>
+                    <p class="archive-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p>
+                </li>
+                <li>
+                    <div class="archive-box">
+                        <svg class="archive-box-icon">
+                            <use href="./images/icons.svg#icon-clock"></use>
+                        </svg>
+                    </div>
+                    <h3 class="archive-title">LOREM IPSUM</h3>
+                    <p class="archive-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p>
+                </li>
+                <li>
+                    <div class="archive-box">
+                        <svg class="archive-box-icon">
+                            <use href="./images/icons.svg#icon-diagram"></use>
+                        </svg>
+                    </div>
+                    <h3 class="archive-title">LOREM IPSUM</h3>
+                    <p class="archive-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p>
+                </li>
+                <li>
+                    <div class="archive-box">
+                        <svg class="archive-box-icon">
+                            <use href="./images/icons.svg#icon-astronaut"></use>
+                        </svg>
+                    </div>
+                    <h3 class="archive-title">LOREM IPSUM</h3>
+                    <p class="archive-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p>
+                </li>
+            </ul>
         </section>
-        <section class="flex-box-production">
+        <section class="production">
             <div class="container">
-                <h2 class="style-tytuł">Czym się zajmujemy</h2>
-                <ul class="flex-box-production-photo">
-                    <li class="box-work">
-                        <p class="text-box-work">Aplikacje komputerowe</p> 
+                <h2 class="production-tytuł">Czym się zajmujemy</h2>
+                <ul class="production-photo">
+                    <li class="production-box">
+                        <p class="production-box-text">Aplikacje komputerowe</p> 
                         <img src="./images/img(1).jpg"
                         alt="programista pisze kod"
                         width="370"
                         height="294"/>
                     </li>
-                    <li class="box-work">
-                        <p class="text-box-work">Aplikacje mobilne</p> 
+                    <li class="production-box">
+                        <p class="production-box-text">Aplikacje mobilne</p> 
                         <img src="./images/img(2)(1).jpg"
                         alt="podłączanie telefonu do komputera"
                         width="370"
                         height="294"/>
                     </li>  
-                    <li class="box-work">
-                        <p class="text-box-work">Rozwiązania graficzne</p> 
+                    <li class="production-box">
+                        <p class="production-box-text">Rozwiązania graficzne</p> 
                         <img src="./images/img(3)(1).jpg"
                         alt="kolorowy sześciokąt na tablecie"
                         width="370"
@@ -120,16 +121,16 @@
                 </ul>
             </div>
         </section>
-        <section class="tlo-nasz-zespol">
+        <section class="state">
             <div class="container">
-                <h2 class="flex-box-sztat-tytul">Nasz zespół</h2>
-                <ul class="flex-box-sztat-photo">
-                    <li class="card-photo1">
-                        <figure class="fb-figure">
+                <h2 class="state-tytul">Nasz zespół</h2>
+                <ul class="state-photo">
+                    <li class="state-card">
+                        <figure class="state-card-image">
                             <img src="./images/img(4)(1).jpg" alt="photo" width="270" height="260"/>
                             <figcaption>
-                                <h4 class="style-name">John Doe</h4>
-                                <p class="style-department">Product Designer</p>
+                                <h4 class="card-name">John Doe</h4>
+                                <p class="card-department">Product Designer</p>
                                 <ul class="social">
                                     <li class="social-list">
                                         <a class="social-link" href="#">
@@ -163,12 +164,12 @@
                             </figcaption>
                         </figure>
                     </li>
-                    <li class="card-photo1">
-                        <figure class="fb-figure">    
+                    <li class="state-card">
+                        <figure class="state-card-image">    
                             <img src="./images/img(5)(1).jpg" alt="photo" width="270" height="260"/>
                                 <figcaption>
-                                    <h4 class="style-name">John Doe</h4>
-                                    <p class="style-department">Frontend Developerr</p>
+                                    <h4 class="card-name">John Doe</h4>
+                                    <p class="card-department">Frontend Developerr</p>
                                     <ul class="social">
                                         <li class="social-list">
                                             <a class="social-link" href="#">
@@ -202,11 +203,12 @@
                                 </figcaption>
                         </figure>
                     </li>
-                    <li class="card-photo1">
-                        <figure class="fb-figure">   
+                    <li class="state-card">
+                        <figure class="state-card-image">   
                         <img src="./images/img(6)(1).jpg" alt="photo" width="270" height="260"/>
-                        <figcaption><h4 class="style-name">John Doe</h4>
-                            <p class="style-department">Marketing</p>
+                        <figcaption>
+                            <h4 class="card-name">John Doe</h4>
+                            <p class="card-department">Marketing</p>
                             <ul class="social">
                                 <li class="social-list">
                                     <a class="social-link" href="#">
@@ -239,11 +241,12 @@
                             </ul>
                         </figcaption>
                         </figure> </li>
-                    <li class="card-photo1">
-                        <figure class="fb-figure">
+                    <li class="state-card">
+                        <figure class="state-card-image">
                         <img src="./images/img(7)(1).jpg" alt="photo" width="270" height="260"/>
-                        <figcaption><h4 class="style-name">John Doe</h4>
-                            <p class="style-department">UI Designer</p>
+                        <figcaption>
+                            <h4 class="card-name">John Doe</h4>
+                            <p class="card-department">UI Designer</p>
                             <ul class="social">
                                 <li class="social-list">
                                     <a class="social-link" href="#">
@@ -279,48 +282,48 @@
                 </ul>
             </div>
         </section>
-        <section class="tlo-Nasi-klienci">
+        <section class="clients">
             <div class="container">
-                <h2 class="flex-box-sztat-tytul">Nasi klienci</h2>
-                <ul class="flex-box-nasi-klienci">
+                <h2 class="clients-tytul">Nasi klienci</h2>
+                <ul class="clients-box">
                     <li class="list">
-                        <a class="card-nasi-clienci" href="">
-                            <svg class="icon-card-nasi-clienti">
+                        <a class="clients-card" href="">
+                            <svg class="clients-card-icon1">
                                 <use href="./images/icons.svg#icon-logo-1"></use>
                             </svg>
                         </a>
                     </li>
                     <li class="list">
-                        <a class="card-nasi-clienci" href="">
-                            <svg class="icon-card-nasi-clienti2">
+                        <a class="clients-card" href="">
+                            <svg class="clients-card-icon2">
                                 <use href="./images/icons.svg#icon-logo-2"></use>
                             </svg>
                         </a>
                     </li>
                     <li class="list">
-                        <a class="card-nasi-clienci" href="">
-                            <svg class="icon-card-nasi-clienti3">
+                        <a class="clients-card" href="">
+                            <svg class="clients-card-icon3">
                                 <use href="./images/icons.svg#icon-logo-3"></use>
                             </svg>
                         </a>
                     </li>
                     <li class="list">
-                        <a class="card-nasi-clienci" href="">
-                            <svg class="icon-card-nasi-clienti4">
+                        <a class="clients-card" href="">
+                            <svg class="clients-card-icon4">
                                 <use href="./images/icons.svg#icon-logo-4"></use>
                             </svg>
                         </a>
                     </li>
                     <li class="list">
-                        <a class="card-nasi-clienci" href="">
-                            <svg class="icon-card-nasi-clienti5">
+                        <a class="clients-card" href="">
+                            <svg class="clients-card-icon5">
                                 <use href="./images/icons.svg#icon-logo-5"></use>
                             </svg>
                         </a>
                     </li>
                     <li class="list">
-                        <a class="card-nasi-clienci" href="">
-                            <svg class="icon-card-nasi-clienti6">
+                        <a class="clients-card" href="">
+                            <svg class="clients-card-icon6">
                                 <use href="./images/icons.svg#icon-logo-6"></use>
                             </svg>
                         </a>
@@ -333,19 +336,19 @@
     <footer id="Kontakt" class="footer">
         <div class="container">
             <div>
-                <a href="WebStudio" class="webstudio">
-                    <span class="web">Web</span><span class="web2">Studio</span>
+                <a href="WebStudio" class="footer-logo">
+                    <span class="header-logo-color">Web</span><span class="footer-logo-color">Studio</span>
                 </a>
                 <address>
-                    <ul class="flex-box-adres">
-                        <li class="flex-box-adres-info">
-                            <a href="x m. Warszawa, Aleje Jerozolimskie 21" class="address"> x m. Warszawa, Aleje Jerozolimskie 21</a>
+                    <ul class="visit">
+                        <li class="visit-info">
+                            <a href="x m. Warszawa, Aleje Jerozolimskie 21" class="visit-info-address"> x m. Warszawa, Aleje Jerozolimskie 21</a>
                         </li>
-                        <li class="flex-box-adres-info">
-                            <a href="info@devstudio.com"class="mail">info@devstudio.com</a>
+                        <li class="visit-info">
+                            <a href="info@devstudio.com"class="header-link-mail">info@devstudio.com</a>
                         </li>
-                        <li class="flex-box-adres-info">
-                            <a href="tel:+48111111111"class="tel">+48 111 111 111</a>
+                        <li class="visit-info">
+                            <a href="tel:+48111111111"class="header-link-tel">+48 111 111 111</a>
                         </li>
                     </ul>
                 </address>
